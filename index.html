@@ -83,7 +83,7 @@
 										<h3 style="color: #5b4fcf; font-weight: 600;">Actuarial Pricing Intern</h3>
 										<h4 style="color: #000000;"><strong>Northbridge Financial Corporation</strong></h4>
 										<p>Analyzed Property and Casualty insurance datasets using Excel and SAS to identify claims and policyholder trends. Supported 
-										   pricing model development, rate-indication analyses, and actuarial reporting</p>
+										   pricing model development, rate-indication analyses, and actuarial reporting.</p>
 									</li>
 									<li>
 										<h3 style="color: #5b4fcf; font-weight: 600;">Econometrics Research Assistant</h3>
@@ -227,6 +227,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    			anchor.addEventListener('click', function (e) {
+       				 e.preventDefault();
 
+       				 const target = document.querySelector(this.getAttribute('href'));
+
+       				 target.scrollIntoView({
+           				 behavior: 'smooth'
+       				 });
+
+        			history.replaceState(null, null, ' ');
+   				 });
+			});
+			</script>
 	</body>
 </html>
