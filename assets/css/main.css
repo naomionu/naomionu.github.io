@@ -3823,3 +3823,21 @@ input, select, textarea {
 	color: #2d2d2d;
 	font-weight: 600;
 }
+#nav {
+	background: rgba(255,255,255,0.92);
+	box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+#nav ul li a {
+	color: #2d2d2d;
+	font-weight: 500;
+}
+
+#nav ul li a:hover {
+	color: #5b4fcf;
+}
+
+#nav ul li a.active {
+	background: #f3f1ff;
+	color: #5b4fcf;
+}
